@@ -1,0 +1,46 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/*/
+![Bb]uilds/Windows/
+![Bb]uilds/Windows/**
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+/Recordings/
+
+# Keep the Windows player export, but ignore helper build request/log files.
+[Bb]uilds/Windows/build.log
+[Bb]uilds/Windows/build_status.txt
+[Bb]uilds/Windows/build_request.txt
+
+# Unity generated project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+sysinfo.txt
+
+# OS / editor noise
+.vs/
+.vscode/
+.vsconfig
+*.apk
+*.aab
+*.app
+*.lnk
+Thumbs.db
+Desktop.ini
